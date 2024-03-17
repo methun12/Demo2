@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>New Lucky Traders</title>
+</head>
+
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-4 primary-text fs-6 fw-bold text-uppercase border-bottom">New Lucky Traders</div>
+            <div class="list-group list-group-flush my-3">
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+                        class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
+                <a href="./orderReport.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas bi-bag-check-fill me-2"></i>Order Report</a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas bi-cart-check-fill me-2"></i>Seller Repoart</a>
+                <a href="./products.html" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas fa-gift me-2"></i>Products</a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas bi-people-fill me-2"></i>Clients</a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                        class="fas bi-person-fill-gear me-2"></i>Employe</a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"><i
+                        class="fas fa-power-off me-2"></i>Logout</a>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
+                    <h2 class="fs-2 m-0">Dashboard</h2>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user me-2"></i>Lucky Traders
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-fluid px-4">
+                <div class="row g-3 my-2">
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">250৳</h3>
+                                <p class="fs-5">Product Price</p>
+                            </div>
+                            <i class="fas bi-cash-coin fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">000৳</h3>
+                                <p class="fs-5">Sales</p>
+                            </div>
+                            <i
+                                class="fas fa-hand-holding-usd fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">000৳</h3>
+                                <p class="fs-5">Due Amount</p>
+                            </div>
+                            <i class="fas bi-coin fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
+                            <div>
+                                <h3 class="fs-2">10</h3>
+                                <p class="fs-5">Products</p>
+                            </div>
+                            <i class="fas fa-gift fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-5">
+                    <h3 class="fs-4 mb-3">Recent Sell</h3>
+                    <div class="col">
+                        <table class="table bg-white rounded shadow-sm  table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col" width="50">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Due</th>
+                                    <th scope="col">Paid Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>BXD</td>
+                                    <td>5000</td>
+                                    <td>1000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>AAA</td>
+                                    <td>000</td>
+                                    <td>25000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>ssa</td>
+                                    <td>00</td>
+                                    <td>1000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>dggd</td>
+                                    <td>50</td>
+                                    <td>30000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>dfgdfg</td>
+                                    <td>1000</td>
+                                    <td>120000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>dfg</td>
+                                    <td>20000</td>
+                                    <td>180000</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>fgdgsg</td>
+                                    <td>15000</td>
+                                    <td>7050</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <td>dfhew</td>
+                                    <td>00</td>
+                                    <td>2336</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td>sdgh</td>
+                                    <td>300</td>
+                                    <td>25005</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>
+                                    <td>gffg</td>
+                                    <td>00</td>
+                                    <td>43400</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td>wyy</td>
+                                    <td>00</td>
+                                    <td>12360</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td>dfghh</td>
+                                    <td>00</td>
+                                    <td>3422</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+    </div>
+    <!---
+    <script type="module" src="file:///Users/methun/New%20Project/admin%20Dashboard/demo1/responsive-bootstrap5-admin-dashboard/js/main.js"></script> 
+    --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        var el = document.getElementById("wrapper");
+        var toggleButton = document.getElementById("menu-toggle");
+
+        toggleButton.onclick = function () {
+            el.classList.toggle("toggled");
+        };
+    </script>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+    import { getDatabase,set,ref,onValue } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDA4OlD3Uow5Z8yzB6m0tS2DoE_XK-IVXw",
+      authDomain: "newluckytraders-92f88.firebaseapp.com",
+      databaseURL: "https://newluckytraders-92f88-default-rtdb.firebaseio.com",
+      projectId: "newluckytraders-92f88",
+      storageBucket: "newluckytraders-92f88.appspot.com",
+      messagingSenderId: "57155295865",
+      appId: "1:57155295865:web:68521b65d3275964dc92a8",
+      measurementId: "G-6EV1DFBNSF"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+    function writeUserData(userId, name, email, imageUrl) {
+    const db = getDatabase();
+    set(ref(db, 'users/' + userId), {
+      username: "name",
+      email: "email",
+      profile_picture : "imageUrl"
+    });
+  }
+  writeUserData(123,"uhuj","ghjl","gh");
+
+  </script>
+</body>
+
+</html>
